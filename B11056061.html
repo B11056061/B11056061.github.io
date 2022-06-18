@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>狗狗品種介紹</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--連結css-->
+    <link rel="stylesheet" href="slideshow.css">
+    <!--連結內容css-->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!--幻燈片-->
+    <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+        <!--圖片投影 元件一-->
+        <div class="carousel-inner">
+            <!--第一張圖片 active-->
+            <div class="carousel-item active">
+                <img class="slide-pic" src="300.jpg" alt="狗狗投影片">
+                <div class="carousel-caption">
+                    <h3>狗狗品種介紹</h3>
+                </div>
+            </div>
+            <!--第二張圖片 active-->
+            <div class="carousel-item">
+                <img class="slide-pic" src="照片.jpg" alt="狗狗投影片2">
+                <div class="carousel-caption">
+                    <h3>狗狗品種介紹</h3>
+                </div>
+            </div>
+        </div>
+        <!-- 左右按鈕 元件二-->
+        <!--左邊按鈕-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <!-- 右邊按鈕-->
+        <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <!-- 指示按鈕 元件三-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active">
+
+            </button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1">
+                
+            </button>
+
+
+        </div>
+    </div>
+    <!--第一層 導覽列-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img width="50px" heigh="50px" src="狗狗.jpg">學生田家欣的網站</a>
+            <!--第一部分 手機板-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--第二部分 桌上型電腦-->
+
+            <div class="collapse navbar-collapse" id="linkbar">
+                <!--列出內容-->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu1">狗狗品種介紹</a>
+                    </li>
+                </ul>
+                <!--列出到右邊-->
+                <form style="width:300px;" class="input-group">
+                    <input class="from-contral me-2" type="搜尋" placeholder="search">
+                    <button class="btn btn-success" type="submit">搜尋</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--第二層 三欄位內容-->
+    <div class="container-fluid">
+        <div class="row content">
+            <!--左邊欄位-->
+            <div class="col-sm-2 sidenav">
+                <h4>狗狗品種介紹</h4>
+            </div>
+            <!--中間欄位-->
+            <div class="col-sm-8 main-content text-left">
+                <h2>歡迎來到狗狗品種介紹的主頁</h2>
+                <img class="slide-pic" src="哈士奇.jpg">
+                <p>此照片為哈士奇~</p>
+                <p>哈士奇是北方地區雪橇型狗的總稱，他們的快速拉動的風格與其他雪橇犬不同。 他們是由速度最快的雪橇犬不斷交配的品種。 相比之下，阿拉斯加雪橇犬是“最大和最有力的”雪橇犬，常被用於較重的承載。 哈士奇被用於雪橇犬拉車比賽。</p>
+            </div>
+            <!--右邊欄位-->
+            <div class="col-sm-2 sidenav">
+                <img class="slide-pic" src="350.jpg">
+            </div>
+        </div>
+    </div>
+    <!--第三層 footer-->
+    <footer class="container-fluid text-center">
+        <p>學生田家欣網站設計&copy;</p>
+    </footer>
+    <!--分頁-->
+    <div class="container-fluid">
+        <h1>狗狗品種介紹</h1>
+        <!--第一部分:標籤分頁的導覽列-->
+        <div class="nav nav-tabs nav-justified">
+            <!--按鈕一-->
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1" aria-selected="true">
+                狗狗品種介紹
+            </button>
+            <!--按鈕二-->
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu2" aria-selected="false">
+                照片
+            </button>
+        </div>
+        <!--第二部分:標籤分頁的內容-->
+        <div class="tab-content">
+            <!--第一個內容-->
+            <div class="tab-pane fade show active" id="menu1">
+                <h3>狗狗種類介紹</h3>
+                <img src="柯基.jpg">
+                <p><br>柯基是牧羊犬中的一個品種，原產於英國威爾斯。 當前獲承認的有兩個不同品種：卡提根(Cardigan) 和潘布魯克(Pembroke)。 歷史上一般認為潘布魯克源自於10世紀左右佛蘭德紡織者引進的狗,而卡提根則是源於諾爾斯定居者帶來的狗,特別是其共同祖先瑞典牧羊犬。</p>
+                <img src="黃金獵犬.jpg">
+                <p><br>黃金獵犬(英語:Golden Retriever)是一種作為用來在配合射擊狩獵而培養出來的中大型獵犬。 「尋回犬」這個名字是指該品種因性格穩重加上咬合力溫柔，叼咬物體時能做到不將其損壞，適合用來幫助獵人尋回被擊斃的獵物（通常是禽類）。</p>
+                <img src="邊境牧羊犬.jpg">
+                <p><br>邊境牧羊犬(英語:Border Collie)是一種原產自蘇格蘭的牧羊犬，主要協助農場放牧，懂得用眼神控制羊群，是最普遍的蘇格蘭牧羊犬犬種。 邊境牧羊犬以精力旺盛，體格精實且容易學習雜技運動而聞名，可是有時候太過興奮會產生一些神經質。 他們被學界認為是最聰明的犬種。</p>
+            </div>
+            <div class="tab-pane fade" id="menu2">
+                <h3>照片</h3>
+                <img src="柯基照片.jpg">
+                <img src="柯基照片2.jpg">
+                <br><img src="黃金獵犬照片1.jpg"><img src="黃金獵犬照片2.jpg">
+                <br><img src="邊境1.jpg"><img src="邊境2.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
